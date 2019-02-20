@@ -8,3 +8,6 @@ Q)How can you use the staging area to make sure you have one commit per logical 
 	A)Before commiting any change, use gti diff --staged to compare the difference between staging area  	and the most recent commit in the repository. This will help you to identify if the difference 			between the previous most recent commit and the staging area is a single logical change.
 *--SECOND THOUGHT--*
 	If you have made changes in your working directory(in multiple files) that you think might be more 		than one logical change, you can add files one by one to your staging area and commit multiple 	logical changes in multiple commits.
+
+Q)How do the diagrams help you visualize the branch structure?
+	A)Diagrams help to see which commits are reachable by a certain branch.
