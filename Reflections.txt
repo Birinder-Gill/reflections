@@ -1,0 +1,10 @@
+Q)How is staging area different from working directory and the repository?What value do you think it offers?
+	A)Staging area intermediate between a commit and Wokring directory. Files added to staging area all 	commited in a single commit.
+	Working directory contains the current changes you are making to the files.Changes are not comitted 	until you add them to staging area and commit them.You can check out on any commit and change the 	files, these changes will be made in the working directory.
+	Repository stores the commits you make and the state of all files during that commit.
+
+Q)How can you use the staging area to make sure you have one commit per logical change?
+*--FIRST THOUGHT--*
+	A)Before commiting any change, use gti diff --staged to compare the difference between staging area  	and the most recent commit in the repository. This will help you to identify if the difference 			between the previous most recent commit and the staging area is a single logical change.
+*--SECOND THOUGHT--*
+	If you have made changes in your working directory(in multiple files) that you think might be more 		than one logical change, you can add files one by one to your staging area and commit multiple 	logical changes in multiple commits.
