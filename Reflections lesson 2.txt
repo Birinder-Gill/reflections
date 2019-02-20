@@ -1,2 +1,0 @@
-How is staging area different from working directory and the repository?What value do you think it offers?
-Staging area intermediate between a commit and initial state files added to staging area all commited in a single commit.
